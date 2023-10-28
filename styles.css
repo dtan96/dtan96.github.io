@@ -94,6 +94,28 @@ footer {
     align-items: center;
 }
 
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #0077b5;
+  color: white;
+}
+
 .nav-item {
     margin-left: 5rem;
 }
