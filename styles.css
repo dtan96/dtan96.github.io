@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.intro img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.about {
+    padding: 50px;
+}
+
+.about-blurb {
+    max-width: 600px;
+    margin: auto;
+}
+
+.blog-posts {
+    padding: 50px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.date {
+    font-style: italic;
+}
+
+.contact {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact img {
+    width: 40px;
+    margin: 10px;
+}
