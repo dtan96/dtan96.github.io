@@ -21,7 +21,8 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #c3afff, #e9e7ff);
+  background: linear-gradient(to left, #c3afff, #d5cdf3);
+  /* Backup color: #e9e7ff*/
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
@@ -127,10 +128,10 @@ html, body {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #691883;
+    background-color: #a9a9a9;
   }
   .menu > li:not(:last-child) {
-    border-bottom: 1px solid #691883;
+    border-bottom: 1px solid #c3afff;
   }
 }
 
