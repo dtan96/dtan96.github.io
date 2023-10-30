@@ -10,7 +10,7 @@ html, body {
 }
 
 * {
-  font-family: "Raleway";
+  font-family: "Muli";
   box-sizing: border-box;
 }
 
@@ -133,8 +133,8 @@ html, body {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 20px;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -149,7 +149,7 @@ html, body {
 
 /* LinkedIn */
 .fa-linkedin {
-  background: #0077b5;
+  background: #a199ff;
   color: white;
 }
 
@@ -160,15 +160,15 @@ html, body {
 .nav-link{
     font-size: 1.6rem;
     font-weight: 400;
-    color: #475569;
+    color: #a182ff;
 }
 
 .nav-link:hover{
-    color: #482ff7;
+    color: #7548ff;
 }
 
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #482ff7;
+    color: #9e00ff;
 }
