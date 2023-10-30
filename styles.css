@@ -130,10 +130,10 @@ html, body {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #a9a9a9;
+    background-color: #c3afff;
   }
   .menu > li:not(:last-child) {
-    border-bottom: 1px solid #c3afff;
+    border-bottom: 0px solid #c3afff;
   }
 }
 
