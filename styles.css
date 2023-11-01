@@ -11,7 +11,7 @@ h2 {
   font-family: "Roboto"
 }
 
-html, body {
+body {
   margin: 0;
   height: 100%
   background-color: #e6e1f9; 
@@ -32,19 +32,28 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
-  background: linear-gradient(to left, #C3AFFF, #e6e1f9);
+  background-color: #e6e1f9;
+  background: linear-gradient(to left, #C3AFFF, #C3AFFF);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
   padding: 1em;
+  position: sticky;
 }
 
 .intro-section {
- display: flex;
+  display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding: 10px
+  padding: 10px;
+}
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20%;
 }
 
 .menu {
@@ -184,11 +193,15 @@ html, body {
 }
 
 .nav-link:hover{
-    color: #7548ff;
+    color: #797777;
 }
 
 .nav-logo {
     font-size: 1.6rem;
     font-weight: 500;
     color: #474747;
+}
+
+.nav-logo:hover{
+    color: #797777;
 }
