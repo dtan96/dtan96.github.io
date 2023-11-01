@@ -1,7 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+h1 {
+  vertical-align: center;
+  text-align: left;
+  font-family: "Roboto"
+}
 h2 {
   vertical-align: center;
-  text-align: center;
+  text-align: left;
+  font-family: "Roboto"
 }
 
 html, body {
@@ -11,7 +18,12 @@ html, body {
 }
 
 * {
-  font-family: "Muli";
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto";
   box-sizing: border-box;
 }
 
@@ -21,15 +33,18 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #c3afff, #d5cdf3);
-  text-decoration: none;
-  /* Backup color: #e9e7ff*/
+  background: linear-gradient(to left, #C3AFFF, #e6e1f9);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
   padding: 1em;
-  /*Giving this a go to make the menu fixed. I don't think this should be sticky as this applies to the website globally. But not sure if using it right*/
-  position: fixed;
+}
+
+.intro-section {
+ display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 10px
 }
 
 .menu {
@@ -98,7 +113,6 @@ html, body {
 @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
-    text-decoration: none;
   }
   .menu {
     position: absolute;
@@ -118,7 +132,7 @@ html, body {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   #menu-toggle:checked ~ .menu li {
-    border: 1px solid #e6e1f9;
+    border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -130,10 +144,10 @@ html, body {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #c3afff;
+    background-color: #222;
   }
   .menu > li:not(:last-child) {
-    border-bottom: 0px solid #c3afff;
+    border-bottom: 1px solid #444;
   }
 }
 
@@ -166,7 +180,7 @@ html, body {
 .nav-link{
     font-size: 1rem;
     font-weight: 400;
-    color: #a182ff;
+    color: #474747;
 }
 
 .nav-link:hover{
@@ -176,5 +190,5 @@ html, body {
 .nav-logo {
     font-size: 1.6rem;
     font-weight: 500;
-    color: #b148d2;
+    color: #474747;
 }
